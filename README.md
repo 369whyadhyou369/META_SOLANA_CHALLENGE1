@@ -3,7 +3,7 @@
 This is a simple React application that demonstrates how to integrate with the Solana blockchain using the Phantom wallet provider. The app allows users to create wallets, connect to existing wallets, transfer SOL tokens, and check wallet balances.
 
 ## Table of Contents
-- [Gonna Started](#gonna-started)
+- [Gonna Start](#gonna-started)
 - [Features available](#features available)
 - [Dependencies](#dependencies)
 - [main Usages](#main usage)
