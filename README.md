@@ -1,6 +1,6 @@
-# Solana Phantom Wallet Integration
+# Wallet integration of solana
 
-This is a simple React application that demonstrates how to integrate with the Solana blockchain using the Phantom wallet provider. The app allows users to create wallets, connect to existing wallets, transfer SOL tokens, and check wallet balances.
+This React app demonstrates how to use the Phantom wallet provider to create wallets, connect to existing wallets, transfer SOL tokens, and check wallet balances.
 
 ## Table of Contents
 - [Gonna Start](#gonna-started)
@@ -10,7 +10,7 @@ This is a simple React application that demonstrates how to integrate with the S
 - [Contributing](#contributing)
 - [License authorised](#license authorised)
 
-## Getting Started
+## Gonna Started
 To run the application locally, follow these steps:
 
 1. Clone this repository to your local machine.
@@ -19,7 +19,7 @@ To run the application locally, follow these steps:
 4. Start the development server: `npm start`
 5. Open your browser and go to: [http://localhost:3000](http://localhost:3000)
 
-## Features
+## Features available
 - Create a new Solana account.
 - Connect to an existing Phantom wallet.
 - Request an airdrop of SOL tokens.
@@ -33,7 +33,7 @@ This project relies on the following technologies and libraries:
 - Solana Web3.js
 - Phantom Wallet
 
-## Usage
+## Usages
 1. **Create a New Solana Account:** Click the "Create a New Solana Account" button. This will generate a new account, request an airdrop of SOL tokens, and display the created wallet's information.
 
 2. **Connect Wallet:** Click the "Connect Wallet" button to connect to an existing Phantom wallet. Once connected, you'll be able to transfer tokens and check balances.
