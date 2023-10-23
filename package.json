@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license authorised": "ISC",
+  "license authorised by": "ISC",
   "dependencies": {
     "@solana/web3.js": "^1.68.0"
   },
