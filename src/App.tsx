@@ -158,17 +158,26 @@ function App() {
 	// HTML code for the app
   return (
     <div className="App">
-  <header className="App-header">
-    <h2>Connect to Phantom Wallet</h2>
-    <button className="custom-button" onClick={createWallet}>Create a New Solana Account</button>
-    <button className="custom-button" onClick={transferToWallet}>Transfer SOL to New Account</button>
-    <button className="custom-button" onClick={connectWallet}>Connect Wallet</button>
-    <button className="custom-button" onClick={getWalletBalance}>New Account Balance</button>
-    {provider && walletKey && <p>Connected account</p>}
-    {message && <p>{message}</p>}
-  </header>
+   <div className="bg"></div>
+
+<div className="star-field">
+<div className="layer"></div>
+<div className="layer"></div>
+<div className="layer"></div>
+   
+</div>
+
+<div className='div2'>
+      <h1>Connect to Phantom Wallet</h1>
+      <button className="custom-button" onClick={createWallet}>Create a New Solana Account</button>
+      <button className="custom-button" onClick={transferToWallet}>Transfer SOL to New Account</button>
+      <button className="custom-button" onClick={ connectWallet }>_____Connect Wallet______</button>
+      <button className="custom-button" onClick={getWalletBalance}>____New Account Balance___</button>
+      {provider && walletKey && <p>Connected account</p>}
+      {message && <p>{message}</p>}
+    </div>
 </div>
 
   );
-}
+  }
 export default App;
