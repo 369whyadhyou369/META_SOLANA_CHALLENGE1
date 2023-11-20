@@ -1,5 +1,4 @@
 tasks:
-
   - name: Dev Server
     init: |
       sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
